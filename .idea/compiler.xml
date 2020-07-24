@@ -6,9 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="homepage-common" />
+        <module name="homepage-course" />
         <module name="homepage-eureka" />
         <module name="homepage-zuul" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="homepage-service" target="1.8" />
+      <module name="homepageservice" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
